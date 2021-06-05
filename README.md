@@ -9,7 +9,7 @@ Clonar o repositorio com as informações das cidades: https://github.com/chinno
 ### Popular
 
 ```shell script
-cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+cd ~/workspace/sql-paises-estados-cidades/PostgreSQL - Diretório onde o arquivo das cidades está
 
 docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
 
