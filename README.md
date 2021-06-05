@@ -6,3 +6,16 @@ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city 
 
 Clonar o repositorio com as informações das cidades: https://github.com/chinnonsantos/sql-paises-estados-cidades
 
+### Popular
+
+```shell script
+cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+
+docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+
+psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
+
+psql -h localhost -U postgres_user_city cities
+
