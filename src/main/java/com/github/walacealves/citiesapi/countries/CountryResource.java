@@ -1,7 +1,7 @@
-package com.github.walacealves.citiesapi;
+package com.github.walacealves.citiesapi.countries;
 
 import com.github.walacealves.citiesapi.countries.Country;
-import com.github.walacealves.citiesapi.repository.CountryRepository;
+import com.github.walacealves.citiesapi.countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
