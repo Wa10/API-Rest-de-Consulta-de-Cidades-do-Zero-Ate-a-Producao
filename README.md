@@ -19,5 +19,8 @@ psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
 
 psql -h localhost -U postgres_user_city cities
 
+CREATE EXTENSION cube; 
+CREATE EXTENSION earthdistance;
+
 Dependencias: implementation 'com.vladmihalcea:hibernate-types-52:2.9.8'
 
