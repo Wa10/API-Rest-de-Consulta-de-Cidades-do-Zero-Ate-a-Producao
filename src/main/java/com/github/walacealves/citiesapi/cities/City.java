@@ -75,7 +75,6 @@ public class City {
         return longitude;
     }
 
-
     public Integer getCod_tom() {
         return cod_tom;
     }
