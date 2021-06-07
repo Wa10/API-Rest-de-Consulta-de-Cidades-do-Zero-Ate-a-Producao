@@ -1,4 +1,4 @@
-package com.github.walacealves.citiesapi.staties;
+package com.github.walacealves.citiesapi.states;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

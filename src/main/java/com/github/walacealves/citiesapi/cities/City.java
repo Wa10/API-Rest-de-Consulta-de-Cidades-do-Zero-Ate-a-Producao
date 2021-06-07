@@ -1,6 +1,6 @@
 package com.github.walacealves.citiesapi.cities;
 
-import com.github.walacealves.citiesapi.staties.State;
+import com.github.walacealves.citiesapi.states.State;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;

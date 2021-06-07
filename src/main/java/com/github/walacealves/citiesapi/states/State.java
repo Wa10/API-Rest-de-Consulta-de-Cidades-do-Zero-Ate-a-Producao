@@ -1,4 +1,4 @@
-package com.github.walacealves.citiesapi.staties;
+package com.github.walacealves.citiesapi.states;
 
 import com.github.walacealves.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
