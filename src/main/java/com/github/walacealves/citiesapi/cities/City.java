@@ -31,6 +31,8 @@ public class City {
 
     private Double longitude;
 
+    private Integer cod_tom;
+
     // 2nd
     @Type(type = "point")
     @Column(name = "lat_lon", updatable = false, insertable = false)
@@ -73,7 +75,12 @@ public class City {
         return longitude;
     }
 
-        public Point getLocation() {
+
+    public Integer getCod_tom() {
+        return cod_tom;
+    }
+
+    public Point getLocation() {
         return location;
     }
 }
